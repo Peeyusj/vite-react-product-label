@@ -66,3 +66,13 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+.App {
+  display: flex;
+      width: 100vw;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      height: 100vh;
+      background-color: #ececec;
+}
