@@ -3,7 +3,7 @@ import React, { useRef } from "react";
 import html2canvas from "html2canvas";
 
 interface AppProps {
-  productTitle: string; // Define the type for the productTitle prop
+  productTitle?: string; // Define the type for the productTitle prop
 }
 
 const App: React.FC<AppProps> = ({ productTitle }) => {
